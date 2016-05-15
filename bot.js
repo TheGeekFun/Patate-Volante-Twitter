@@ -123,44 +123,44 @@
                     
                     var text = data.text.toLowerCase();
 
-                    if(text.contains('patate volante') || text.contains('patates volantes') || 
-                       text.contains('patate ailée') || 
-                       text.contains('patate avion') ||
-                       text.contains('patate fusée') || 
-                       text.contains('tubercule volant') || 
-                       text.contains('tubercule volant') ||
-                       text.contains('pomme de terre volante'))
+                    if(text.contains('kebab') || text.contains('kebabs') || 
+                       text.contains('manger grec') || 
+                       text.contains('nan fromage') ||
+                       text.contains('sandwitch nan') || 
+                       text.contains('kebab masqué') || 
+                       text.contains('sauce samurai') ||
+                       text.contains('sauce blanche'))
                     {
                         var rand = parseInt(Math.random() * (4 - 0) + 0);
                         switch(rand) {
                             case 3 :
-                                result = 'Patate volante ? Oui c\'est moi ! La seule, l\'unique !';
+                                result = 'LE SEUL ET UNIQUE Kebab Masquey vous apporte sa bénédiction. Bonne journée!';
                                 break;
                             case 2:
-                                result = "Patate volante un jour, patate volante toujours !";
+                                result = "Kebab un jour, kebab toujours !";
                                 break;
                             case 1:
-                                result = "Les patates volantes sont nos amies.";
+                                result = "Les kebabs sont nos amis.";
                                 break;
                             case 0:
-                                result = "Vive les patates volantes.";
+                                result = "Que la force du Tout-Puissant Kebab soit avec vous.";
                                 break;
                             default:
-                                result = 'Carotte Volante ! Qu\'est-ce que je raconte moi ?';
+                                result = 'Kebab Volant ! Qu\'est-ce que je raconte moi ?';
                                 break;
                         }
                     } 
-                    else if(text.contains('frite volante') || text.contains('chips volante')) {
-                        result = 'Le tout à base de patate volante, bien sûr !!!';
+                    else if(text.contains('kebabiste') || text.contains('kebabier')) {
+                        result = 'Les amis des Kebabs sont nos amis!!!';
                     }
-                    else if(text.contains('patate sautée') || text.contains('patates sautées')) {
-                        result = 'Les patates volantes sautées ne retombent pas dans la poêle !';
+                    else if(text.contains('vomi kebab') || text.contains('vomi kebabs')) {
+                        result = 'Le kebab c\'est trop génial!!;
                     } 
-                    else if(text.contains('pomme de terre rôtie')) {
-                        result = 'N\'essayez pas de nous rôtir, les patates volantes sont des dures à cuire.';
+                    else if(text.contains('salade tomate oignon')) {
+                        result = 'Le légendaire, l\'inimitable salade tomate oignon du chef! ;
                     } 
-                    else if(text.contains('patate farcie') || text.contains('patates farcies')) {
-                        result = 'Éventrer des patates est interdit pas la convention de Genève.';
+                    else if(text.contains('kebab bon') || text.contains('kebabs bons')) {
+                        result = 'Un kebab c\'est toujours un bon bail!!';
                     }
                     /*else if(text.contains('cipt')) { // maybe we can find a solution
                         result = 'Ici, c\'est hachis ! http://tinyurl.com/o9a2ly7 #CIPT';
@@ -172,7 +172,7 @@
                         result = 'La vie, c\'est la fête ! http://www.belledulie.fr/';
                     }
                     else {
-                        result = 'Les patates volantes sont nos amies !';
+                        result = 'Les kebabs sont nos amis !';
                     }
                     
                     var today = new Date();
@@ -233,20 +233,20 @@
         //initialize the stream and everything else
 
         var keyWords = [
-            'patate volante',
-            'patates volantes',
-            'patate ailée',
-            'patate avion',
-            'patate fusée',
-            'pomme de terre volante',
-            'frite volante',
-            'chips volante',
-            'pomme de terre rôtie',
-            'patate farcie',
-            'patates farcies',
-            'patate sautée',
-            'patates sautées',
-            'tubercule volant',
+            'kebab',
+            'kebabs',
+            'manger grec',
+            'nan fromage',
+            'sandwitch nan',
+            'kebab masqué',
+            'sauce samuraï',
+            'sauce blanche',
+            'kebabiste',
+            'kebabier',
+            'vomi kebab',
+            'vomi kebabs',
+            'salade tomate oignon',
+            'kebab bon',
             'axomania',
             'pomme de terre en fête'
         ];
