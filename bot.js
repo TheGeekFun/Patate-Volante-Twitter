@@ -137,13 +137,13 @@
                                 result = 'LE SEUL ET UNIQUE Kebab Masquey vous apporte sa bénédiction. Bonne journée!';
                                 break;
                             case 2:
-                                result = "Kebab un jour, kebab toujours !";
+                                result = 'Kebab un jour, kebab toujours !';
                                 break;
                             case 1:
-                                result = "Les kebabs sont nos amis.";
+                                result = 'Les kebabs sont nos amis.';
                                 break;
                             case 0:
-                                result = "Que la force du Tout-Puissant Kebab soit avec vous.";
+                                result = 'Que la force du Tout-Puissant Kebab soit avec vous.';
                                 break;
                             default:
                                 result = 'Kebab Volant ! Qu\'est-ce que je raconte moi ?';
@@ -154,10 +154,10 @@
                         result = 'Les amis des Kebabs sont nos amis!!!';
                     }
                     else if(text.contains('vomi kebab') || text.contains('vomi kebabs')) {
-                        result = 'Le kebab c\'est trop génial!!;
+                        result = 'Le kebab c\'est trop génial!!';
                     } 
                     else if(text.contains('salade tomate oignon')) {
-                        result = 'Le légendaire, l\'inimitable salade tomate oignon du chef! ;
+                        result = 'Le légendaire, l\'inimitable salade tomate oignon du chef!' ;
                     } 
                     else if(text.contains('kebab bon') || text.contains('kebabs bons')) {
                         result = 'Un kebab c\'est toujours un bon bail!!';
